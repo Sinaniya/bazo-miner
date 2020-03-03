@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/bazo-blockchain/bazo-miner/storage"
+	"github.com/Sinaniya/bazo-miner/storage"
 	"net"
 	"strconv"
 	"strings"

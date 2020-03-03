@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/bazo-blockchain/bazo-miner/protocol"
-	"github.com/bazo-blockchain/bazo-miner/storage"
+	"github.com/Sinaniya/bazo-miner/protocol"
+	"github.com/Sinaniya/bazo-miner/storage"
 	"sync"
 )
 

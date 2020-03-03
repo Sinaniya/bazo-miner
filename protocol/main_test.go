@@ -5,7 +5,7 @@ import (
 	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/rsa"
-	"github.com/bazo-blockchain/bazo-miner/crypto"
+	"github.com/Sinaniya/bazo-miner/crypto"
 	"io/ioutil"
 	"log"
 	"math/big"

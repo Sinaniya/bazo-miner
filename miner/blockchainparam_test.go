@@ -1,8 +1,8 @@
 package miner
 
 import (
-	"github.com/bazo-blockchain/bazo-miner/crypto"
-	"github.com/bazo-blockchain/bazo-miner/protocol"
+	"github.com/Sinaniya/bazo-miner/crypto"
+	"github.com/Sinaniya/bazo-miner/protocol"
 	"testing"
 )
 

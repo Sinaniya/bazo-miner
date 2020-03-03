@@ -1,0 +1,1372 @@
+INFO: 2020/03/03 10:04:59.809060 blockchain.go:39: 
+
+
+BBBBBBBBBBBBBBBBB               AAA               ZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO
+B::::::::::::::::B             A:::A              Z:::::::::::::::::Z   OO:::::::::OO
+B::::::BBBBBB:::::B           A:::::A             Z:::::::::::::::::Z OO:::::::::::::OO
+BB:::::B     B:::::B         A:::::::A            Z:::ZZZZZZZZ:::::Z O:::::::OOO:::::::O
+  B::::B     B:::::B        A:::::::::A           ZZZZZ     Z:::::Z  O::::::O   O::::::O
+  B::::B     B:::::B       A:::::A:::::A                  Z:::::Z    O:::::O     O:::::O
+  B::::BBBBBB:::::B       A:::::A A:::::A                Z:::::Z     O:::::O     O:::::O
+  B:::::::::::::BB       A:::::A   A:::::A              Z:::::Z      O:::::O     O:::::O
+  B::::BBBBBB:::::B     A:::::A     A:::::A            Z:::::Z       O:::::O     O:::::O
+  B::::B     B:::::B   A:::::AAAAAAAAA:::::A          Z:::::Z        O:::::O     O:::::O
+  B::::B     B:::::B  A:::::::::::::::::::::A        Z:::::Z         O:::::O     O:::::O
+  B::::B     B:::::B A:::::AAAAAAAAAAAAA:::::A    ZZZ:::::Z     ZZZZZO::::::O   O::::::O
+BB:::::BBBBBB::::::BA:::::A             A:::::A   Z::::::ZZZZZZZZ:::ZO:::::::OOO:::::::O
+B:::::::::::::::::BA:::::A               A:::::A  Z:::::::::::::::::Z OO:::::::::::::OO
+B::::::::::::::::BA:::::A                 A:::::A Z:::::::::::::::::Z   OO:::::::::OO
+BBBBBBBBBBBBBBBBBAAAAAAA                   AAAAAAAZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO
+
+
+INFO: 2020/03/03 10:04:59.809060 blockchain.go:57: 
+
+
+-------------------- START MINER ---------------------
+INFO: 2020/03/03 10:04:59.810215 blockchain.go:58: This Miners IP-Address: localhost:8000
+
+INFO: 2020/03/03 10:05:01.825095 state.go:214: Block validated: 0 --> 0000000000000000
+INFO: 2020/03/03 10:05:01.825095 state.go:224: 
+
+1 block(s) validated. Chain good to go.
+------------------------------------------------------------------------
+
+INFO: 2020/03/03 10:05:01.825095 state.go:225: Last Block: 
+
+Hash: 0000000000000000			Hash Without Tx: 0000000000000000
+Previous Hash: 0000000000000000		Previous Hash Without Tx: 0000000000000000
+Aggregated: false
+Nonce: 0000000000000000
+Timestamp: 0
+MerkleRoot: 0000000000000000
+Beneficiary: 0000000000000000
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 0
+Commitment Proof: 938dc285ec481bbc
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+
+------------------------------------------------------------------------
+
+INFO: 2020/03/03 10:05:01.825095 state.go:226: Current STATE: 
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+
+------------------------------------------------------------------------
+
+INFO: 2020/03/03 10:05:01.825095 blockchain.go:78: ActiveConfigParams: 
+
+Block Hash: 0000000000000000
+Block size: 5000
+Difficulty interval: 25
+Fee minimum: 1
+Block interval: 15
+Block reward: 0
+Staking minimum: 1000
+Waiting minimum: 0
+Acceptanced time difference: 60
+Slashing window size: 100
+Slash reward: 2
+Num of previous proofs included in PoS: 5
+
+------------------------------------------------------------------------
+
+BAZO is Running
+
+INFO: 2020/03/03 10:05:01.825988 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:02.827523 proofofstake.go:126: Try Block with Time: 100502 and cnt: 1
+INFO: 2020/03/03 10:05:03.827032 proofofstake.go:126: Try Block with Time: 100503 and cnt: 2
+INFO: 2020/03/03 10:05:04.649483 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:04.650158 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:04.650158 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:04.651151 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:04.651151 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:04.827406 proofofstake.go:126: Try Block with Time: 100504 and cnt: 3
+INFO: 2020/03/03 10:05:05.827535 proofofstake.go:126: Try Block with Time: 100505 and cnt: 4
+INFO: 2020/03/03 10:05:05.827535 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:05.828545 blockchain.go:103: Block mined (482fd395adce75e4)
+INFO: 2020/03/03 10:05:05.838508 blockchain.go:111: Validated block (mined): 
+Hash: 482fd395adce75e4			Hash Without Tx: 9e212c3d2e0e2563
+Previous Hash: 0000000000000000		Previous Hash Without Tx: 0000000000000000
+Aggregated: false
+Nonce: 000000005e5e1dc1
+Timestamp: 1583226305
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 1
+Commitment Proof: 728afb22c73fac18
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:05.838508 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:05.839506 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:05.839506 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:05.839506 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:05.839506 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:05.839506 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:05.839506 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:05.839506 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:05.839506 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:05.839506 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:06.842477 proofofstake.go:126: Try Block with Time: 100506 and cnt: 1
+INFO: 2020/03/03 10:05:07.842841 proofofstake.go:126: Try Block with Time: 100507 and cnt: 2
+INFO: 2020/03/03 10:05:08.842030 proofofstake.go:126: Try Block with Time: 100508 and cnt: 3
+INFO: 2020/03/03 10:05:08.842030 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:08.842030 blockchain.go:103: Block mined (6a9e670b2ec32901)
+INFO: 2020/03/03 10:05:08.855074 blockchain.go:111: Validated block (mined): 
+Hash: 6a9e670b2ec32901			Hash Without Tx: 4ba588cf9a9adc06
+Previous Hash: 482fd395adce75e4		Previous Hash Without Tx: 9e212c3d2e0e2563
+Aggregated: false
+Nonce: 000000005e5e1dc4
+Timestamp: 1583226308
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 2
+Commitment Proof: 39a392399a3df9e0
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:08.855074 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:08.856071 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:08.856071 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:08.856071 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:08.856071 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:08.856071 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:08.856071 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:08.856071 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:08.856071 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:08.856071 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:09.652624 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:09.652624 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:09.652624 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:09.653204 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:09.653204 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:09.858108 proofofstake.go:126: Try Block with Time: 100509 and cnt: 1
+INFO: 2020/03/03 10:05:10.858508 proofofstake.go:126: Try Block with Time: 100510 and cnt: 2
+INFO: 2020/03/03 10:05:11.860041 proofofstake.go:126: Try Block with Time: 100511 and cnt: 3
+INFO: 2020/03/03 10:05:12.858797 proofofstake.go:126: Try Block with Time: 100512 and cnt: 4
+INFO: 2020/03/03 10:05:13.859097 proofofstake.go:126: Try Block with Time: 100513 and cnt: 5
+INFO: 2020/03/03 10:05:14.653214 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:14.653214 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:14.654276 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:14.656215 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:14.656215 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:14.859025 proofofstake.go:126: Try Block with Time: 100514 and cnt: 6
+INFO: 2020/03/03 10:05:15.859787 proofofstake.go:126: Try Block with Time: 100515 and cnt: 7
+INFO: 2020/03/03 10:05:16.858088 proofofstake.go:126: Try Block with Time: 100516 and cnt: 8
+INFO: 2020/03/03 10:05:16.858088 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:16.859078 blockchain.go:103: Block mined (ffaef6187fdb4356)
+INFO: 2020/03/03 10:05:16.873153 blockchain.go:111: Validated block (mined): 
+Hash: ffaef6187fdb4356			Hash Without Tx: b81f96d480d4716c
+Previous Hash: 6a9e670b2ec32901		Previous Hash Without Tx: 4ba588cf9a9adc06
+Aggregated: false
+Nonce: 000000005e5e1dcc
+Timestamp: 1583226316
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 3
+Commitment Proof: 5d6860719eedb190
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:16.874109 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:16.874109 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:16.875106 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:16.875106 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:16.876098 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:16.876098 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:16.877101 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:16.877101 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:16.877101 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:16.879135 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:17.889656 proofofstake.go:126: Try Block with Time: 100517 and cnt: 1
+INFO: 2020/03/03 10:05:18.888266 proofofstake.go:126: Try Block with Time: 100518 and cnt: 2
+INFO: 2020/03/03 10:05:19.658483 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:19.658483 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:19.659220 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:19.660214 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:19.661212 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:19.888761 proofofstake.go:126: Try Block with Time: 100519 and cnt: 3
+INFO: 2020/03/03 10:05:19.888761 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:19.890428 blockchain.go:103: Block mined (5ba3d1ee76363c64)
+INFO: 2020/03/03 10:05:19.913666 blockchain.go:111: Validated block (mined): 
+Hash: 5ba3d1ee76363c64			Hash Without Tx: 9dac63d00d22809b
+Previous Hash: ffaef6187fdb4356		Previous Hash Without Tx: b81f96d480d4716c
+Aggregated: false
+Nonce: 000000005e5e1dcf
+Timestamp: 1583226319
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 4
+Commitment Proof: 38704c0a59bad86b
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:19.914364 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:19.916358 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:19.916358 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:19.917359 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:19.918353 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:19.919356 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:19.919356 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:19.920351 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:19.921348 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:19.921348 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:20.924415 proofofstake.go:126: Try Block with Time: 100520 and cnt: 1
+INFO: 2020/03/03 10:05:21.924827 proofofstake.go:126: Try Block with Time: 100521 and cnt: 2
+INFO: 2020/03/03 10:05:22.924597 proofofstake.go:126: Try Block with Time: 100522 and cnt: 3
+INFO: 2020/03/03 10:05:23.926233 proofofstake.go:126: Try Block with Time: 100523 and cnt: 4
+INFO: 2020/03/03 10:05:24.662506 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:24.662506 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:24.663087 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:24.663087 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:24.663087 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:24.924392 proofofstake.go:126: Try Block with Time: 100524 and cnt: 5
+INFO: 2020/03/03 10:05:25.924651 proofofstake.go:126: Try Block with Time: 100525 and cnt: 6
+INFO: 2020/03/03 10:05:26.925022 proofofstake.go:126: Try Block with Time: 100526 and cnt: 7
+INFO: 2020/03/03 10:05:27.925775 proofofstake.go:126: Try Block with Time: 100527 and cnt: 8
+INFO: 2020/03/03 10:05:28.924968 proofofstake.go:126: Try Block with Time: 100528 and cnt: 9
+INFO: 2020/03/03 10:05:29.663975 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:29.663975 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:29.664723 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:29.665715 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:29.665715 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:29.925056 proofofstake.go:126: Try Block with Time: 100529 and cnt: 10
+INFO: 2020/03/03 10:05:30.925007 proofofstake.go:126: Try Block with Time: 100530 and cnt: 11
+INFO: 2020/03/03 10:05:31.924504 proofofstake.go:126: Try Block with Time: 100531 and cnt: 12
+INFO: 2020/03/03 10:05:32.925181 proofofstake.go:126: Try Block with Time: 100532 and cnt: 13
+INFO: 2020/03/03 10:05:33.925088 proofofstake.go:126: Try Block with Time: 100533 and cnt: 14
+INFO: 2020/03/03 10:05:34.669081 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:34.670078 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:34.670078 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:34.671076 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:34.671076 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:34.925332 proofofstake.go:126: Try Block with Time: 100534 and cnt: 15
+INFO: 2020/03/03 10:05:34.925332 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:34.927320 blockchain.go:103: Block mined (d7344f60dce97494)
+INFO: 2020/03/03 10:05:34.950290 blockchain.go:111: Validated block (mined): 
+Hash: d7344f60dce97494			Hash Without Tx: 5c12526c5125d159
+Previous Hash: 5ba3d1ee76363c64		Previous Hash Without Tx: 9dac63d00d22809b
+Aggregated: false
+Nonce: 000000005e5e1dde
+Timestamp: 1583226334
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 5
+Commitment Proof: 241471e6c682d186
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:34.951263 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:34.953260 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:34.953260 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:34.955251 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:34.959319 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:34.961260 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:34.963260 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:34.964259 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:34.964259 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:34.965249 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:35.972445 proofofstake.go:126: Try Block with Time: 100535 and cnt: 1
+INFO: 2020/03/03 10:05:36.973061 proofofstake.go:126: Try Block with Time: 100536 and cnt: 2
+INFO: 2020/03/03 10:05:37.972472 proofofstake.go:126: Try Block with Time: 100537 and cnt: 3
+INFO: 2020/03/03 10:05:38.972568 proofofstake.go:126: Try Block with Time: 100538 and cnt: 4
+INFO: 2020/03/03 10:05:39.671749 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:39.671749 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:39.672785 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:39.673740 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:39.674738 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:39.973276 proofofstake.go:126: Try Block with Time: 100539 and cnt: 5
+INFO: 2020/03/03 10:05:40.972503 proofofstake.go:126: Try Block with Time: 100540 and cnt: 6
+INFO: 2020/03/03 10:05:41.973506 proofofstake.go:126: Try Block with Time: 100541 and cnt: 7
+INFO: 2020/03/03 10:05:42.973126 proofofstake.go:126: Try Block with Time: 100542 and cnt: 8
+INFO: 2020/03/03 10:05:43.973345 proofofstake.go:126: Try Block with Time: 100543 and cnt: 9
+INFO: 2020/03/03 10:05:44.674786 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:44.674786 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:44.676451 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:44.676451 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:44.677452 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:44.973373 proofofstake.go:126: Try Block with Time: 100544 and cnt: 10
+INFO: 2020/03/03 10:05:45.972644 proofofstake.go:126: Try Block with Time: 100545 and cnt: 11
+INFO: 2020/03/03 10:05:46.972833 proofofstake.go:126: Try Block with Time: 100546 and cnt: 12
+INFO: 2020/03/03 10:05:47.972741 proofofstake.go:126: Try Block with Time: 100547 and cnt: 13
+INFO: 2020/03/03 10:05:48.972974 proofofstake.go:126: Try Block with Time: 100548 and cnt: 14
+INFO: 2020/03/03 10:05:49.677616 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:49.677616 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:49.678215 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:49.678215 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:49.678215 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:49.972492 proofofstake.go:126: Try Block with Time: 100549 and cnt: 15
+INFO: 2020/03/03 10:05:50.973296 proofofstake.go:126: Try Block with Time: 100550 and cnt: 16
+INFO: 2020/03/03 10:05:51.972291 proofofstake.go:126: Try Block with Time: 100551 and cnt: 17
+INFO: 2020/03/03 10:05:52.972477 proofofstake.go:126: Try Block with Time: 100552 and cnt: 18
+INFO: 2020/03/03 10:05:53.973541 proofofstake.go:126: Try Block with Time: 100553 and cnt: 19
+INFO: 2020/03/03 10:05:53.973541 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:53.974538 blockchain.go:103: Block mined (6478284da1863357)
+INFO: 2020/03/03 10:05:53.984511 blockchain.go:111: Validated block (mined): 
+Hash: 6478284da1863357			Hash Without Tx: 0bf10d5570bcd71f
+Previous Hash: d7344f60dce97494		Previous Hash Without Tx: 5c12526c5125d159
+Aggregated: false
+Nonce: 000000005e5e1df1
+Timestamp: 1583226353
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 6
+Commitment Proof: d8c1de2a36521cda
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:53.984511 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:53.984511 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:53.984511 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:53.985508 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:53.985508 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:53.985508 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:53.985508 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:53.985508 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:53.985508 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:53.985508 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:54.678795 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:54.678795 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:54.678795 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:54.679807 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:54.679807 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:05:54.987771 proofofstake.go:126: Try Block with Time: 100554 and cnt: 1
+INFO: 2020/03/03 10:05:55.987594 proofofstake.go:126: Try Block with Time: 100555 and cnt: 2
+INFO: 2020/03/03 10:05:56.988145 proofofstake.go:126: Try Block with Time: 100556 and cnt: 3
+INFO: 2020/03/03 10:05:57.987932 proofofstake.go:126: Try Block with Time: 100557 and cnt: 4
+INFO: 2020/03/03 10:05:58.989226 proofofstake.go:126: Try Block with Time: 100558 and cnt: 5
+INFO: 2020/03/03 10:05:58.989226 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:05:58.990224 blockchain.go:103: Block mined (49f0137a641e3646)
+INFO: 2020/03/03 10:05:59.004370 blockchain.go:111: Validated block (mined): 
+Hash: 49f0137a641e3646			Hash Without Tx: be079e0479c87a9a
+Previous Hash: 6478284da1863357		Previous Hash Without Tx: 0bf10d5570bcd71f
+Aggregated: false
+Nonce: 000000005e5e1df6
+Timestamp: 1583226358
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 7
+Commitment Proof: 8cb4883443d6fd5f
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:05:59.004370 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:59.005367 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:59.005367 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:59.005367 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:59.005367 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:05:59.005367 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:05:59.005367 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:05:59.005367 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:05:59.005367 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:05:59.006364 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:05:59.682584 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:05:59.682584 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:05:59.682584 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:05:59.682584 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:05:59.683588 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:00.009250 proofofstake.go:126: Try Block with Time: 100600 and cnt: 1
+INFO: 2020/03/03 10:06:01.010579 proofofstake.go:126: Try Block with Time: 100601 and cnt: 2
+INFO: 2020/03/03 10:06:02.008575 proofofstake.go:126: Try Block with Time: 100602 and cnt: 3
+INFO: 2020/03/03 10:06:02.008575 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:02.010240 blockchain.go:103: Block mined (41d0397d17c3e6c1)
+INFO: 2020/03/03 10:06:02.015226 blockchain.go:111: Validated block (mined): 
+Hash: 41d0397d17c3e6c1			Hash Without Tx: 90595a6b478f50fa
+Previous Hash: 49f0137a641e3646		Previous Hash Without Tx: be079e0479c87a9a
+Aggregated: false
+Nonce: 000000005e5e1dfa
+Timestamp: 1583226362
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 8
+Commitment Proof: 279087265f2be784
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:02.015226 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:02.015226 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:02.015226 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:02.015226 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:02.015226 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:02.015226 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:02.015226 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:02.015226 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:02.015226 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:02.016224 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:03.017806 proofofstake.go:126: Try Block with Time: 100603 and cnt: 1
+INFO: 2020/03/03 10:06:04.017691 proofofstake.go:126: Try Block with Time: 100604 and cnt: 2
+INFO: 2020/03/03 10:06:04.017691 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:04.018642 blockchain.go:103: Block mined (bc8818f5da9e7f07)
+INFO: 2020/03/03 10:06:04.041613 blockchain.go:111: Validated block (mined): 
+Hash: bc8818f5da9e7f07			Hash Without Tx: 3a7c3f2889dabaf8
+Previous Hash: 41d0397d17c3e6c1		Previous Hash Without Tx: 90595a6b478f50fa
+Aggregated: false
+Nonce: 000000005e5e1dfc
+Timestamp: 1583226364
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 9
+Commitment Proof: 9db25ed7d418ba07
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:04.042615 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:04.043604 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:04.043604 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:04.045605 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:04.046595 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:04.047599 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:04.048589 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:04.048589 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:04.049595 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:04.050584 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:04.684356 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:04.685035 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:04.685035 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:04.686031 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:04.686031 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:05.060372 proofofstake.go:126: Try Block with Time: 100605 and cnt: 1
+INFO: 2020/03/03 10:06:06.058575 proofofstake.go:126: Try Block with Time: 100606 and cnt: 2
+INFO: 2020/03/03 10:06:07.059766 proofofstake.go:126: Try Block with Time: 100607 and cnt: 3
+INFO: 2020/03/03 10:06:07.059766 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:07.060437 blockchain.go:103: Block mined (81ca4ceb393d6fea)
+INFO: 2020/03/03 10:06:07.077381 blockchain.go:111: Validated block (mined): 
+Hash: 81ca4ceb393d6fea			Hash Without Tx: 95f1aa8198ea962b
+Previous Hash: bc8818f5da9e7f07		Previous Hash Without Tx: 3a7c3f2889dabaf8
+Aggregated: false
+Nonce: 000000005e5e1dff
+Timestamp: 1583226367
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 10
+Commitment Proof: ca8743da2c33c0c6
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:07.077381 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:07.078377 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:07.078377 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:07.078377 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:07.078377 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:07.078377 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:07.078377 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:07.078377 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:07.078377 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:07.078377 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:08.081306 proofofstake.go:126: Try Block with Time: 100608 and cnt: 1
+INFO: 2020/03/03 10:06:09.080524 proofofstake.go:126: Try Block with Time: 100609 and cnt: 2
+INFO: 2020/03/03 10:06:09.688068 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:09.688068 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:09.689749 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:09.689749 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:09.690739 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:10.081236 proofofstake.go:126: Try Block with Time: 100610 and cnt: 3
+INFO: 2020/03/03 10:06:11.080446 proofofstake.go:126: Try Block with Time: 100611 and cnt: 4
+INFO: 2020/03/03 10:06:12.081553 proofofstake.go:126: Try Block with Time: 100612 and cnt: 5
+INFO: 2020/03/03 10:06:13.080719 proofofstake.go:126: Try Block with Time: 100613 and cnt: 6
+INFO: 2020/03/03 10:06:14.082273 proofofstake.go:126: Try Block with Time: 100614 and cnt: 7
+INFO: 2020/03/03 10:06:14.691968 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:14.691968 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:14.693643 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:14.693643 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:14.694638 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:15.080757 proofofstake.go:126: Try Block with Time: 100615 and cnt: 8
+INFO: 2020/03/03 10:06:16.081216 proofofstake.go:126: Try Block with Time: 100616 and cnt: 9
+INFO: 2020/03/03 10:06:17.080913 proofofstake.go:126: Try Block with Time: 100617 and cnt: 10
+INFO: 2020/03/03 10:06:18.081691 proofofstake.go:126: Try Block with Time: 100618 and cnt: 11
+INFO: 2020/03/03 10:06:19.080736 proofofstake.go:126: Try Block with Time: 100619 and cnt: 12
+INFO: 2020/03/03 10:06:19.694956 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:19.694956 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:19.696647 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:19.696647 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:19.697640 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:20.080654 proofofstake.go:126: Try Block with Time: 100620 and cnt: 13
+INFO: 2020/03/03 10:06:21.081623 proofofstake.go:126: Try Block with Time: 100621 and cnt: 14
+INFO: 2020/03/03 10:06:22.080649 proofofstake.go:126: Try Block with Time: 100622 and cnt: 15
+INFO: 2020/03/03 10:06:23.080727 proofofstake.go:126: Try Block with Time: 100623 and cnt: 16
+INFO: 2020/03/03 10:06:24.080650 proofofstake.go:126: Try Block with Time: 100624 and cnt: 17
+INFO: 2020/03/03 10:06:24.080650 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:24.081701 blockchain.go:103: Block mined (fd140e1075de6d64)
+INFO: 2020/03/03 10:06:24.103796 blockchain.go:111: Validated block (mined): 
+Hash: fd140e1075de6d64			Hash Without Tx: f788bcd34a0b86ee
+Previous Hash: 81ca4ceb393d6fea		Previous Hash Without Tx: 95f1aa8198ea962b
+Aggregated: false
+Nonce: 000000005e5e1e10
+Timestamp: 1583226384
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 11
+Commitment Proof: 401f820e7c3178fc
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:24.103796 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:24.105771 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:24.106722 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:24.106722 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:24.107719 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:24.107719 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:24.108717 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:24.113713 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:24.114701 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:24.115699 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:24.698766 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:24.698766 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:24.699442 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:24.700436 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:24.701432 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:25.122746 proofofstake.go:126: Try Block with Time: 100625 and cnt: 1
+INFO: 2020/03/03 10:06:26.122902 proofofstake.go:126: Try Block with Time: 100626 and cnt: 2
+INFO: 2020/03/03 10:06:27.123705 proofofstake.go:126: Try Block with Time: 100627 and cnt: 3
+INFO: 2020/03/03 10:06:28.123224 proofofstake.go:126: Try Block with Time: 100628 and cnt: 4
+INFO: 2020/03/03 10:06:29.123592 proofofstake.go:126: Try Block with Time: 100629 and cnt: 5
+INFO: 2020/03/03 10:06:29.701681 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:29.701681 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:29.702706 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:29.703689 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:29.703689 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:30.122784 proofofstake.go:126: Try Block with Time: 100630 and cnt: 6
+INFO: 2020/03/03 10:06:30.122784 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:30.123803 blockchain.go:103: Block mined (2fecc781081fbdf6)
+INFO: 2020/03/03 10:06:30.151039 blockchain.go:111: Validated block (mined): 
+Hash: 2fecc781081fbdf6			Hash Without Tx: 3d443c4e62bdd43a
+Previous Hash: fd140e1075de6d64		Previous Hash Without Tx: f788bcd34a0b86ee
+Aggregated: false
+Nonce: 000000005e5e1e16
+Timestamp: 1583226390
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 12
+Commitment Proof: 96d41e328c029df0
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:30.151785 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:30.152823 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:30.153780 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:30.153780 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:30.154776 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:30.154776 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:30.155774 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:30.155774 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:30.156767 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:30.156767 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:31.165684 proofofstake.go:126: Try Block with Time: 100631 and cnt: 1
+INFO: 2020/03/03 10:06:32.165105 proofofstake.go:126: Try Block with Time: 100632 and cnt: 2
+INFO: 2020/03/03 10:06:33.165103 proofofstake.go:126: Try Block with Time: 100633 and cnt: 3
+INFO: 2020/03/03 10:06:33.165103 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:33.165776 blockchain.go:103: Block mined (9ac6629f49849580)
+INFO: 2020/03/03 10:06:33.190151 blockchain.go:111: Validated block (mined): 
+Hash: 9ac6629f49849580			Hash Without Tx: 8314ef0ce81ebb9e
+Previous Hash: 2fecc781081fbdf6		Previous Hash Without Tx: 3d443c4e62bdd43a
+Aggregated: false
+Nonce: 000000005e5e1e19
+Timestamp: 1583226393
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 13
+Commitment Proof: ca93f74734a3a3a4
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:33.191146 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:33.193142 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:33.193142 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:33.194132 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:33.194132 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:33.195130 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:33.195130 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:33.196127 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:33.196127 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:33.197124 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:34.205610 proofofstake.go:126: Try Block with Time: 100634 and cnt: 1
+INFO: 2020/03/03 10:06:34.704955 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:34.704955 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:34.706035 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:34.706959 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:34.706959 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:35.205574 proofofstake.go:126: Try Block with Time: 100635 and cnt: 2
+INFO: 2020/03/03 10:06:35.205574 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:35.206569 blockchain.go:103: Block mined (51677bf8e59b3197)
+INFO: 2020/03/03 10:06:35.228654 blockchain.go:111: Validated block (mined): 
+Hash: 51677bf8e59b3197			Hash Without Tx: ae080f33ed938936
+Previous Hash: 9ac6629f49849580		Previous Hash Without Tx: 8314ef0ce81ebb9e
+Aggregated: false
+Nonce: 000000005e5e1e1b
+Timestamp: 1583226395
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 14
+Commitment Proof: 101c47d0da834847
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:35.228654 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:35.231640 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:35.232637 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:35.232637 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:35.233629 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:35.233629 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:35.234626 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:35.234626 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:35.235623 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:35.235623 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:36.244444 proofofstake.go:126: Try Block with Time: 100636 and cnt: 1
+INFO: 2020/03/03 10:06:37.243673 proofofstake.go:126: Try Block with Time: 100637 and cnt: 2
+INFO: 2020/03/03 10:06:38.244062 proofofstake.go:126: Try Block with Time: 100638 and cnt: 3
+INFO: 2020/03/03 10:06:39.243778 proofofstake.go:126: Try Block with Time: 100639 and cnt: 4
+INFO: 2020/03/03 10:06:39.708735 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:39.708735 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:39.709774 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:39.710730 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:39.711726 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:40.244764 proofofstake.go:126: Try Block with Time: 100640 and cnt: 5
+INFO: 2020/03/03 10:06:41.243624 proofofstake.go:126: Try Block with Time: 100641 and cnt: 6
+INFO: 2020/03/03 10:06:42.244431 proofofstake.go:126: Try Block with Time: 100642 and cnt: 7
+INFO: 2020/03/03 10:06:43.244837 proofofstake.go:126: Try Block with Time: 100643 and cnt: 8
+INFO: 2020/03/03 10:06:44.244623 proofofstake.go:126: Try Block with Time: 100644 and cnt: 9
+INFO: 2020/03/03 10:06:44.713958 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:44.713958 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:44.715631 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:44.715631 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:44.715631 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:45.243883 proofofstake.go:126: Try Block with Time: 100645 and cnt: 10
+INFO: 2020/03/03 10:06:46.243654 proofofstake.go:126: Try Block with Time: 100646 and cnt: 11
+INFO: 2020/03/03 10:06:47.243864 proofofstake.go:126: Try Block with Time: 100647 and cnt: 12
+INFO: 2020/03/03 10:06:48.244349 proofofstake.go:126: Try Block with Time: 100648 and cnt: 13
+INFO: 2020/03/03 10:06:48.244349 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:48.245383 blockchain.go:103: Block mined (17f44e148298b147)
+INFO: 2020/03/03 10:06:48.269323 blockchain.go:111: Validated block (mined): 
+Hash: 17f44e148298b147			Hash Without Tx: f19ac418a78e118f
+Previous Hash: 51677bf8e59b3197		Previous Hash Without Tx: ae080f33ed938936
+Aggregated: false
+Nonce: 000000005e5e1e28
+Timestamp: 1583226408
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 15
+Commitment Proof: 0408ec95a886d502
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:48.270306 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:48.272308 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:48.276323 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:48.277292 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:48.278291 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:48.278291 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:48.279288 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:48.280283 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:48.281319 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:48.282277 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:49.291341 proofofstake.go:126: Try Block with Time: 100649 and cnt: 1
+INFO: 2020/03/03 10:06:49.717830 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:49.717830 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:49.718882 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:49.719833 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:49.719833 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:50.291432 proofofstake.go:126: Try Block with Time: 100650 and cnt: 2
+INFO: 2020/03/03 10:06:51.291864 proofofstake.go:126: Try Block with Time: 100651 and cnt: 3
+INFO: 2020/03/03 10:06:52.292577 proofofstake.go:126: Try Block with Time: 100652 and cnt: 4
+INFO: 2020/03/03 10:06:52.292577 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:06:52.294304 blockchain.go:103: Block mined (e1ee47e8db2c040a)
+INFO: 2020/03/03 10:06:52.313304 blockchain.go:111: Validated block (mined): 
+Hash: e1ee47e8db2c040a			Hash Without Tx: 6ff0ed518eba5b80
+Previous Hash: 17f44e148298b147		Previous Hash Without Tx: f19ac418a78e118f
+Aggregated: false
+Nonce: 000000005e5e1e2c
+Timestamp: 1583226412
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 16
+Commitment Proof: 26729c2650c79e1e
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:06:52.313304 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:52.315304 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:52.316261 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:52.316261 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:52.317259 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:06:52.317259 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:06:52.317259 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:06:52.318257 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:06:52.318257 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:06:52.318257 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:06:53.324343 proofofstake.go:126: Try Block with Time: 100653 and cnt: 1
+INFO: 2020/03/03 10:06:54.324095 proofofstake.go:126: Try Block with Time: 100654 and cnt: 2
+INFO: 2020/03/03 10:06:54.721293 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:54.721293 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:54.722023 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:54.722023 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:54.722973 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:06:55.325030 proofofstake.go:126: Try Block with Time: 100655 and cnt: 3
+INFO: 2020/03/03 10:06:56.324099 proofofstake.go:126: Try Block with Time: 100656 and cnt: 4
+INFO: 2020/03/03 10:06:57.324115 proofofstake.go:126: Try Block with Time: 100657 and cnt: 5
+INFO: 2020/03/03 10:06:58.324367 proofofstake.go:126: Try Block with Time: 100658 and cnt: 6
+INFO: 2020/03/03 10:06:59.324789 proofofstake.go:126: Try Block with Time: 100659 and cnt: 7
+INFO: 2020/03/03 10:06:59.723189 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:06:59.723189 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:06:59.724199 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:06:59.724199 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:06:59.725195 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:00.324410 proofofstake.go:126: Try Block with Time: 100700 and cnt: 8
+INFO: 2020/03/03 10:07:00.324410 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:00.324410 blockchain.go:103: Block mined (d1be67c77ec330ad)
+INFO: 2020/03/03 10:07:00.348352 blockchain.go:111: Validated block (mined): 
+Hash: d1be67c77ec330ad			Hash Without Tx: 4585e6fb98cd57a7
+Previous Hash: e1ee47e8db2c040a		Previous Hash Without Tx: 6ff0ed518eba5b80
+Aggregated: false
+Nonce: 000000005e5e1e34
+Timestamp: 1583226420
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 17
+Commitment Proof: 0e8bb949c4929200
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:00.349350 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:00.349350 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:00.349350 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:00.349350 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:00.349350 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:00.349350 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:00.349350 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:00.349350 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:00.349350 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:00.349350 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:01.352260 proofofstake.go:126: Try Block with Time: 100701 and cnt: 1
+INFO: 2020/03/03 10:07:01.352260 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:01.352938 blockchain.go:103: Block mined (a94f4a9ed0614b56)
+INFO: 2020/03/03 10:07:01.377957 blockchain.go:111: Validated block (mined): 
+Hash: a94f4a9ed0614b56			Hash Without Tx: 02d3f6072491bb86
+Previous Hash: d1be67c77ec330ad		Previous Hash Without Tx: 4585e6fb98cd57a7
+Aggregated: false
+Nonce: 000000005e5e1e35
+Timestamp: 1583226421
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 18
+Commitment Proof: 6d2d030ebd29a010
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:01.378900 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:01.379898 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:01.379898 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:01.380887 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:01.380887 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:01.381883 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:01.381883 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:01.381883 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:01.382882 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:01.382882 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:02.390006 proofofstake.go:126: Try Block with Time: 100702 and cnt: 1
+INFO: 2020/03/03 10:07:03.388141 proofofstake.go:126: Try Block with Time: 100703 and cnt: 2
+INFO: 2020/03/03 10:07:04.388322 proofofstake.go:126: Try Block with Time: 100704 and cnt: 3
+INFO: 2020/03/03 10:07:04.726490 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:04.726490 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:04.727181 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:04.734156 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:04.734156 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:05.388864 proofofstake.go:126: Try Block with Time: 100705 and cnt: 4
+INFO: 2020/03/03 10:07:06.387951 proofofstake.go:126: Try Block with Time: 100706 and cnt: 5
+INFO: 2020/03/03 10:07:07.388153 proofofstake.go:126: Try Block with Time: 100707 and cnt: 6
+INFO: 2020/03/03 10:07:08.388703 proofofstake.go:126: Try Block with Time: 100708 and cnt: 7
+INFO: 2020/03/03 10:07:09.388125 proofofstake.go:126: Try Block with Time: 100709 and cnt: 8
+INFO: 2020/03/03 10:07:09.734626 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:09.734626 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:09.735292 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:09.735292 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:09.735292 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:10.388188 proofofstake.go:126: Try Block with Time: 100710 and cnt: 9
+INFO: 2020/03/03 10:07:10.388188 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:10.388188 blockchain.go:103: Block mined (92f6374f77c876f4)
+INFO: 2020/03/03 10:07:10.400037 blockchain.go:111: Validated block (mined): 
+Hash: 92f6374f77c876f4			Hash Without Tx: 54a5c97b4a69eb3e
+Previous Hash: a94f4a9ed0614b56		Previous Hash Without Tx: 02d3f6072491bb86
+Aggregated: false
+Nonce: 000000005e5e1e3e
+Timestamp: 1583226430
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 19
+Commitment Proof: def1de785da43b08
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:10.400037 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:10.401005 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:10.401005 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:10.401005 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:10.401005 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:10.401005 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:10.401005 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:10.401005 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:10.401005 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:10.401005 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:11.403883 proofofstake.go:126: Try Block with Time: 100711 and cnt: 1
+INFO: 2020/03/03 10:07:12.403267 proofofstake.go:126: Try Block with Time: 100712 and cnt: 2
+INFO: 2020/03/03 10:07:13.404883 proofofstake.go:126: Try Block with Time: 100713 and cnt: 3
+INFO: 2020/03/03 10:07:14.403836 proofofstake.go:126: Try Block with Time: 100714 and cnt: 4
+INFO: 2020/03/03 10:07:14.735893 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:14.735893 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:14.735893 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:14.735893 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:14.736609 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:15.403118 proofofstake.go:126: Try Block with Time: 100715 and cnt: 5
+INFO: 2020/03/03 10:07:16.403176 proofofstake.go:126: Try Block with Time: 100716 and cnt: 6
+INFO: 2020/03/03 10:07:17.403164 proofofstake.go:126: Try Block with Time: 100717 and cnt: 7
+INFO: 2020/03/03 10:07:18.404009 proofofstake.go:126: Try Block with Time: 100718 and cnt: 8
+INFO: 2020/03/03 10:07:19.403867 proofofstake.go:126: Try Block with Time: 100719 and cnt: 9
+INFO: 2020/03/03 10:07:19.737557 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:19.737557 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:19.738550 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:19.738550 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:19.739547 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:20.403660 proofofstake.go:126: Try Block with Time: 100720 and cnt: 10
+INFO: 2020/03/03 10:07:21.403416 proofofstake.go:126: Try Block with Time: 100721 and cnt: 11
+INFO: 2020/03/03 10:07:21.403416 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:21.403416 blockchain.go:103: Block mined (55f41b0e168a2558)
+INFO: 2020/03/03 10:07:21.425284 blockchain.go:111: Validated block (mined): 
+Hash: 55f41b0e168a2558			Hash Without Tx: 0b502cbdf21f1583
+Previous Hash: 92f6374f77c876f4		Previous Hash Without Tx: 54a5c97b4a69eb3e
+Aggregated: false
+Nonce: 000000005e5e1e49
+Timestamp: 1583226441
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 20
+Commitment Proof: 12a7103936efea4f
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:21.426263 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:21.427266 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:21.430255 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:21.431248 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:21.432246 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:21.432246 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:21.433244 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:21.433244 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:21.434241 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:21.434241 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:22.444267 proofofstake.go:126: Try Block with Time: 100722 and cnt: 1
+INFO: 2020/03/03 10:07:23.444508 proofofstake.go:126: Try Block with Time: 100723 and cnt: 2
+INFO: 2020/03/03 10:07:23.444508 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:23.445504 blockchain.go:103: Block mined (d0b45639fccad9fe)
+INFO: 2020/03/03 10:07:23.456506 blockchain.go:111: Validated block (mined): 
+Hash: d0b45639fccad9fe			Hash Without Tx: 4412b9b361ec3647
+Previous Hash: 55f41b0e168a2558		Previous Hash Without Tx: 0b502cbdf21f1583
+Aggregated: false
+Nonce: 000000005e5e1e4b
+Timestamp: 1583226443
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 21
+Commitment Proof: b54dd2c04c6d0b85
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:23.457504 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:23.457504 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:23.457504 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:23.457504 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:23.457504 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:23.458501 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:23.458501 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:23.458501 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:23.458501 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:23.458501 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:24.461407 proofofstake.go:126: Try Block with Time: 100724 and cnt: 1
+INFO: 2020/03/03 10:07:24.740355 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:24.740355 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:24.740355 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:24.740355 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:24.740355 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:25.461058 proofofstake.go:126: Try Block with Time: 100725 and cnt: 2
+INFO: 2020/03/03 10:07:25.461058 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:25.461797 blockchain.go:103: Block mined (7bdacbbcc6cc657e)
+INFO: 2020/03/03 10:07:25.491795 blockchain.go:111: Validated block (mined): 
+Hash: 7bdacbbcc6cc657e			Hash Without Tx: d17a5dce96897220
+Previous Hash: d0b45639fccad9fe		Previous Hash Without Tx: 4412b9b361ec3647
+Aggregated: false
+Nonce: 000000005e5e1e4d
+Timestamp: 1583226445
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 22
+Commitment Proof: 02820a03890327eb
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:25.491795 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:25.491795 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:25.492789 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:25.492789 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:25.492789 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:25.493813 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:25.493813 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:25.493813 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:25.493813 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:25.493813 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:26.498071 proofofstake.go:126: Try Block with Time: 100726 and cnt: 1
+INFO: 2020/03/03 10:07:26.498071 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:26.498743 blockchain.go:103: Block mined (5192902b025df6a6)
+INFO: 2020/03/03 10:07:26.526715 blockchain.go:111: Validated block (mined): 
+Hash: 5192902b025df6a6			Hash Without Tx: 5f6d27864abb878b
+Previous Hash: 7bdacbbcc6cc657e		Previous Hash Without Tx: d17a5dce96897220
+Aggregated: false
+Nonce: 000000005e5e1e4e
+Timestamp: 1583226446
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 23
+Commitment Proof: 7a279b8a6fc7c300
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:26.527663 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:26.527663 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:26.528666 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:26.528666 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:26.529656 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:26.530655 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:26.530655 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:26.531652 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:26.531652 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:26.532649 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:27.542484 proofofstake.go:126: Try Block with Time: 100727 and cnt: 1
+INFO: 2020/03/03 10:07:28.540673 proofofstake.go:126: Try Block with Time: 100728 and cnt: 2
+INFO: 2020/03/03 10:07:29.541683 proofofstake.go:126: Try Block with Time: 100729 and cnt: 3
+INFO: 2020/03/03 10:07:29.740909 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:29.741074 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:29.742087 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:29.742087 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:29.743124 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:30.541442 proofofstake.go:126: Try Block with Time: 100730 and cnt: 4
+INFO: 2020/03/03 10:07:31.541371 proofofstake.go:126: Try Block with Time: 100731 and cnt: 5
+INFO: 2020/03/03 10:07:32.540973 proofofstake.go:126: Try Block with Time: 100732 and cnt: 6
+INFO: 2020/03/03 10:07:33.541798 proofofstake.go:126: Try Block with Time: 100733 and cnt: 7
+INFO: 2020/03/03 10:07:34.540966 proofofstake.go:126: Try Block with Time: 100734 and cnt: 8
+INFO: 2020/03/03 10:07:34.744401 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:34.744401 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:34.745149 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:34.745149 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:34.746141 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:35.541111 proofofstake.go:126: Try Block with Time: 100735 and cnt: 9
+INFO: 2020/03/03 10:07:36.540705 proofofstake.go:126: Try Block with Time: 100736 and cnt: 10
+INFO: 2020/03/03 10:07:37.541541 proofofstake.go:126: Try Block with Time: 100737 and cnt: 11
+INFO: 2020/03/03 10:07:38.540677 proofofstake.go:126: Try Block with Time: 100738 and cnt: 12
+INFO: 2020/03/03 10:07:39.540933 proofofstake.go:126: Try Block with Time: 100739 and cnt: 13
+INFO: 2020/03/03 10:07:39.748315 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:39.749040 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:39.749040 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:39.750038 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:39.750038 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:40.540753 proofofstake.go:126: Try Block with Time: 100740 and cnt: 14
+INFO: 2020/03/03 10:07:41.542028 proofofstake.go:126: Try Block with Time: 100741 and cnt: 15
+INFO: 2020/03/03 10:07:41.542028 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:07:41.542028 blockchain.go:103: Block mined (0339e4f39578da66)
+INFO: 2020/03/03 10:07:41.556765 blockchain.go:111: Validated block (mined): 
+Hash: 0339e4f39578da66			Hash Without Tx: bec85a9fc96e6234
+Previous Hash: 5192902b025df6a6		Previous Hash Without Tx: 5f6d27864abb878b
+Aggregated: false
+Nonce: 000000005e5e1e5d
+Timestamp: 1583226461
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 24
+Commitment Proof: c7bbfdaa69f287aa
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:07:41.556765 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:41.556765 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:41.556765 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:41.557776 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:41.557776 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:07:41.557776 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:07:41.557776 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:07:41.557776 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:07:41.557776 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:07:41.557776 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:07:42.561466 proofofstake.go:126: Try Block with Time: 100742 and cnt: 1
+INFO: 2020/03/03 10:07:43.560589 proofofstake.go:126: Try Block with Time: 100743 and cnt: 2
+INFO: 2020/03/03 10:07:44.560614 proofofstake.go:126: Try Block with Time: 100744 and cnt: 3
+INFO: 2020/03/03 10:07:44.751669 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:44.752400 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:44.752400 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:44.753395 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:44.753395 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:45.560250 proofofstake.go:126: Try Block with Time: 100745 and cnt: 4
+INFO: 2020/03/03 10:07:46.560722 proofofstake.go:126: Try Block with Time: 100746 and cnt: 5
+INFO: 2020/03/03 10:07:47.560167 proofofstake.go:126: Try Block with Time: 100747 and cnt: 6
+INFO: 2020/03/03 10:07:48.559980 proofofstake.go:126: Try Block with Time: 100748 and cnt: 7
+INFO: 2020/03/03 10:07:49.560663 proofofstake.go:126: Try Block with Time: 100749 and cnt: 8
+INFO: 2020/03/03 10:07:49.756057 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:49.756057 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:49.758002 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:49.761988 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:49.762986 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:50.559988 proofofstake.go:126: Try Block with Time: 100750 and cnt: 9
+INFO: 2020/03/03 10:07:51.559855 proofofstake.go:126: Try Block with Time: 100751 and cnt: 10
+INFO: 2020/03/03 10:07:52.563141 proofofstake.go:126: Try Block with Time: 100752 and cnt: 11
+INFO: 2020/03/03 10:07:53.560473 proofofstake.go:126: Try Block with Time: 100753 and cnt: 12
+INFO: 2020/03/03 10:07:54.559810 proofofstake.go:126: Try Block with Time: 100754 and cnt: 13
+INFO: 2020/03/03 10:07:54.763265 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:54.772241 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:54.779223 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:54.779223 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:54.779223 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:07:55.560640 proofofstake.go:126: Try Block with Time: 100755 and cnt: 14
+INFO: 2020/03/03 10:07:56.560208 proofofstake.go:126: Try Block with Time: 100756 and cnt: 15
+INFO: 2020/03/03 10:07:57.560278 proofofstake.go:126: Try Block with Time: 100757 and cnt: 16
+INFO: 2020/03/03 10:07:58.560319 proofofstake.go:126: Try Block with Time: 100758 and cnt: 17
+INFO: 2020/03/03 10:07:59.561499 proofofstake.go:126: Try Block with Time: 100759 and cnt: 18
+INFO: 2020/03/03 10:07:59.780470 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:07:59.780607 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:07:59.780607 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:07:59.780607 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:07:59.780607 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:08:00.559974 proofofstake.go:126: Try Block with Time: 100800 and cnt: 19
+INFO: 2020/03/03 10:08:00.559974 block.go:120: -- End Finalization
+INFO: 2020/03/03 10:08:00.561021 blockchain.go:103: Block mined (39c9075ee46a4a7e)
+INFO: 2020/03/03 10:08:00.567008 blockchainparam.go:82: TARGET_CHECK: Target changed, new target: 13
+INFO: 2020/03/03 10:08:00.582958 blockchain.go:111: Validated block (mined): 
+Hash: 39c9075ee46a4a7e			Hash Without Tx: 252467aae279642b
+Previous Hash: 0339e4f39578da66		Previous Hash Without Tx: bec85a9fc96e6234
+Aggregated: false
+Nonce: 000000005e5e1e70
+Timestamp: 1583226480
+MerkleRoot: 0000000000000000
+Beneficiary: 4e31e2a7caca93c8
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Amount of aggTx: 0 --> []
+Total Transactions in this block: 0
+Height: 25
+Commitment Proof: 2ee5bc3e63b959c1
+Slashed Address:0000000000000000
+Conflicted Block Hashes 1:0000000000000000  =  0000000000000000
+Conflicted Block Hashes 2:0000000000000000  =  0000000000000000
+State:
+Is root: true, Hash: 4e31e2a7caca93c8, Address: 2bad4edaeffc8949, TxCnt: 0, Balance: 1000, IsStaking: true, 
+INFO: 2020/03/03 10:08:00.582958 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:08:00.583984 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:08:00.583984 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:08:00.583984 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:08:00.583984 blockchain.go:127: 
+
+ __________________________________________________ New Mining Round __________________________________________________
+INFO: 2020/03/03 10:08:00.583984 blockchain.go:129: Create Next Block
+INFO: 2020/03/03 10:08:00.583984 blockchain.go:132: Prepare Next Block
+INFO: 2020/03/03 10:08:00.583984 blockpreparation.go:41: block.GetBloomFilterSize() 0
+INFO: 2020/03/03 10:08:00.583984 blockchain.go:134: Prepare Next Block --> Done
+INFO: 2020/03/03 10:08:00.583984 block.go:53: -- Start Finalize
+INFO: 2020/03/03 10:08:01.586569 proofofstake.go:126: Try Block with Time: 100801 and cnt: 1
+INFO: 2020/03/03 10:08:02.587255 proofofstake.go:126: Try Block with Time: 100802 and cnt: 2
+INFO: 2020/03/03 10:08:03.586753 proofofstake.go:126: Try Block with Time: 100803 and cnt: 3
+INFO: 2020/03/03 10:08:04.586199 proofofstake.go:126: Try Block with Time: 100804 and cnt: 4
+INFO: 2020/03/03 10:08:04.781893 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:08:04.781893 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:08:04.782644 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:08:04.783641 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:08:04.783641 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|
+INFO: 2020/03/03 10:08:05.586767 proofofstake.go:126: Try Block with Time: 100805 and cnt: 5
+INFO: 2020/03/03 10:08:06.586000 proofofstake.go:126: Try Block with Time: 100806 and cnt: 6
+INFO: 2020/03/03 10:08:07.586444 proofofstake.go:126: Try Block with Time: 100807 and cnt: 7
+INFO: 2020/03/03 10:08:08.586892 proofofstake.go:126: Try Block with Time: 100808 and cnt: 8
+INFO: 2020/03/03 10:08:09.586592 proofofstake.go:126: Try Block with Time: 100809 and cnt: 9
+INFO: 2020/03/03 10:08:09.784189 miner_request.go:94:   ____________
+INFO: 2020/03/03 10:08:09.784189 miner_request.go:95:  | Neighbors: |__________________
+INFO: 2020/03/03 10:08:09.784189 miner_request.go:101: |   No Neighbors                |
+INFO: 2020/03/03 10:08:09.784189 miner_request.go:103: |_______________________________|
+INFO: 2020/03/03 10:08:09.785137 services.go:184:      |-- Request Neighbors...        |
+                                                       |_______________________________|

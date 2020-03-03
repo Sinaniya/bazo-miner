@@ -3,9 +3,9 @@ package miner
 import (
 	"errors"
 	"fmt"
-	"github.com/bazo-blockchain/bazo-miner/p2p"
-	"github.com/bazo-blockchain/bazo-miner/protocol"
-	"github.com/bazo-blockchain/bazo-miner/storage"
+	"github.com/Sinaniya/bazo-miner/p2p"
+	"github.com/Sinaniya/bazo-miner/protocol"
+	"github.com/Sinaniya/bazo-miner/storage"
 	"sync"
 	"time"
 )

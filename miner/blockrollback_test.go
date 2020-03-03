@@ -1,12 +1,12 @@
 package miner
 
 import (
-	"github.com/bazo-blockchain/bazo-miner/crypto"
+	"github.com/Sinaniya/bazo-miner/crypto"
 	"reflect"
 	"testing"
 
-	"github.com/bazo-blockchain/bazo-miner/protocol"
-	"github.com/bazo-blockchain/bazo-miner/storage"
+	"github.com/Sinaniya/bazo-miner/protocol"
+	"github.com/Sinaniya/bazo-miner/storage"
 )
 
 //Tests whether state is the same before validation and after rollback of a block
